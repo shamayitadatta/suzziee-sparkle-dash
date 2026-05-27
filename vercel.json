@@ -1,13 +1,9 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist/client",
-  "framework": "tanstack-start",
-  "serverless": {
-    "nodejs": "20"
-  },
   "routes": [
     {
-      "src": "^/(?!api/).*",
+      "src": "/(.*)",
       "dest": "/index.html"
     }
   ]
