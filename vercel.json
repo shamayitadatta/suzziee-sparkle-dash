@@ -2,9 +2,6 @@
   "buildCommand": "npm run build",
   "outputDirectory": ".output/public",
   "framework": "tanstack-start",
-  "env": {
-    "VITE_API_HOST": "@vite_api_host"
-  },
   "functions": {
     "api/**": {
       "runtime": "nodejs20.x"
