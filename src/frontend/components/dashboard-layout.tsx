@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import { LayoutDashboard, Package, BarChart3, Settings, Search, Menu, Sparkles, LogOut, ShieldCheck, User as UserIcon } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
-import { useAuth, type Role } from "@/lib/auth";
-import { LiveFeed } from "@/components/live-feed";
+import { useAuth, type Role } from "@/auth/auth";
+import { LiveFeed } from "@/frontend/components/live-feed";
 
 const ALL_NAV = [
   { to: "/", label: "Dashboard", icon: LayoutDashboard, roles: ["admin"] as Role[] },

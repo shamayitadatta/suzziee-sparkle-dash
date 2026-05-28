@@ -3,8 +3,8 @@ import { useQuery } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { ArrowLeft, Star, ShoppingCart, Heart, Truck, Shield, ChevronLeft, ChevronRight } from "lucide-react";
-import { DashboardLayout } from "@/components/dashboard-layout";
-import { fetchProduct } from "@/lib/api";
+import { DashboardLayout } from "@/frontend/components/dashboard-layout";
+import { fetchProduct } from "@/frontend/lib/api";
 
 export const Route = createFileRoute("/products/$id")({
   component: () => (

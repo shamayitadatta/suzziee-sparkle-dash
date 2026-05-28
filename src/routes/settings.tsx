@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { DashboardLayout } from "@/components/dashboard-layout";
+import { DashboardLayout } from "@/frontend/components/dashboard-layout";
 
 export const Route = createFileRoute("/settings")({
   component: () => (

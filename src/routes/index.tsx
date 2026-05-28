@@ -8,8 +8,8 @@ import {
 import {
   BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip, PieChart, Pie, Cell, AreaChart, Area, CartesianGrid,
 } from "recharts";
-import { DashboardLayout } from "@/components/dashboard-layout";
-import { fetchProducts } from "@/lib/api";
+import { DashboardLayout } from "@/frontend/components/dashboard-layout";
+import { fetchProducts } from "@/frontend/lib/api";
 
 export const Route = createFileRoute("/")({
   component: () => (
