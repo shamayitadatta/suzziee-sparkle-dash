@@ -3,11 +3,11 @@ import { useQuery } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "framer-motion";
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
 import { Search, Star, SlidersHorizontal, ArrowUpDown, Grid3x3, List, X, Eye, EyeOff, Columns3, GripVertical, ChevronUp, ChevronDown, Radio } from "lucide-react";
-import { DashboardLayout } from "@/components/dashboard-layout";
-import { fetchProducts, type Product } from "@/lib/api";
-import { useDebounce } from "@/hooks/use-debounce";
-import { usePublished } from "@/hooks/use-published";
-import { useAuth } from "@/lib/auth";
+import { DashboardLayout } from "@/frontend/components/dashboard-layout";
+import { fetchProducts, type Product } from "@/frontend/lib/api";
+import { useDebounce } from "@/frontend/hooks/use-debounce";
+import { usePublished } from "@/auth/use-published";
+import { useAuth } from "@/auth/auth";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/products/")({

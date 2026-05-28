@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { Radio, TrendingDown, TrendingUp, AlertTriangle, Flame, PackageX, Bell, X } from "lucide-react";
-import { subscribeLive, type LiveEvent } from "@/lib/live-socket";
+import { subscribeLive, type LiveEvent } from "@/frontend/lib/live-socket";
 import { cn } from "@/lib/utils";
 
 const ICONS = {

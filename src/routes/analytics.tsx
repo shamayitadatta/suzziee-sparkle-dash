@@ -7,8 +7,8 @@ import {
   BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip, CartesianGrid,
   RadialBarChart, RadialBar, Legend,
 } from "recharts";
-import { DashboardLayout } from "@/components/dashboard-layout";
-import { fetchProducts } from "@/lib/api";
+import { DashboardLayout } from "@/frontend/components/dashboard-layout";
+import { fetchProducts } from "@/frontend/lib/api";
 
 export const Route = createFileRoute("/analytics")({
   component: () => (

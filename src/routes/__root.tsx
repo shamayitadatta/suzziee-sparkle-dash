@@ -9,7 +9,7 @@ import {
   Navigate,
 } from "@tanstack/react-router";
 import appCss from "../styles.css?url";
-import { AuthProvider, useAuth, type Role } from "@/lib/auth";
+import { AuthProvider, useAuth, type Role } from "@/auth/auth";
 
 function NotFoundComponent() {
   return (

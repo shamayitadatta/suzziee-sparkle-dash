@@ -2,7 +2,7 @@ import { createFileRoute, useNavigate, Navigate } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { Sparkles, ShieldCheck, User as UserIcon, Lock, Mail } from "lucide-react";
 import { useState, type FormEvent } from "react";
-import { useAuth, type Role } from "@/lib/auth";
+import { useAuth, type Role } from "@/auth/auth";
 
 export const Route = createFileRoute("/login")({
   component: LoginPage,
